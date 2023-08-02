@@ -5,7 +5,7 @@ pipeline {
     stage('test') {
       agent any
       steps {
-        echo 'Hello'
+        echo 'Hello Neeeeew'
       }
     }
     stage('Checkout SCM') {
