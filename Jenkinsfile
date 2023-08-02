@@ -4,7 +4,7 @@ pipeline {
     stage('test') {
       agent any
       steps {
-        echo 'Hello'
+        echo 'Hello Webhook'
       }
     }
     stage('Checkout SCM') {
